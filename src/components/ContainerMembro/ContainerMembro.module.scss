@@ -1,3 +1,46 @@
-.testeContainer {
-  background-color: yellow;
+.container {
+  width: 1063px;
+  height: 402px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 3px;
+  border-radius: 3rem;
+
+  &__containerFoto{
+
+    &__foto{
+      border-radius: 50%;
+      width: 264px;
+      height: 264px;
+    }
+  }
+
+  &__containerInfos{
+
+    &__pessoa{
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+      &__nome {
+        font-weight: 800;
+        font-size: 32px;
+        color: #4E3494;
+      }
+
+      &__funcao{
+        font-weight: 800;
+        font-size: 24px;
+        color: #4E3494;
+      }
+    }
+
+    &__sobre{
+      margin: 3rem 0;
+      font-size: 18px;
+      font-weight: 500;
+      color: #4E3494;
+    }
+  }
 }

@@ -1,3 +1,12 @@
-.teste{
-  background-color: green;
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__tituloSquad{
+    color: #4A007F;
+    font-weight: 400;
+    font-size: 101px;
+  }
 }
