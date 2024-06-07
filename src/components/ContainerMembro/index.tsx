@@ -5,8 +5,8 @@ interface IContainerMembroProps {
   nomeMembro: string,
   funcao: string,
   linkLinkedin: string,
-  sobreMembro: string,
   foto: string
+  sobreMembro?: string,
 }
 
 export default function ContainerMembro({ foto, funcao, linkLinkedin, nomeMembro, sobreMembro }: IContainerMembroProps){
@@ -22,7 +22,7 @@ export default function ContainerMembro({ foto, funcao, linkLinkedin, nomeMembro
             <h2 className={styles.container__containerInfos__pessoa__funcao}>{funcao}</h2>
           </div>
           <a href={linkLinkedin} target="_blank">
-            <FaLinkedin size={40}/>
+            <FaLinkedin size={40} color="#0E46A8"/>
           </a>
         </div>
         <p className={styles.container__containerInfos__sobre}>{sobreMembro}</p>
