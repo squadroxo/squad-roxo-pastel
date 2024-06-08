@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "nomeMembro": "Ibson Cabral",
+    "funcao": "Host",
+    "linkLinkedin": "https://www.linkedin.com/in/ibson-cabral/",
+    "foto": "devs/ibson-host.png"
+  },
+  {
+    "id": 2,
+    "nomeMembro":"Ari Dell",
+    "funcao":"Front-end Develotooth",
+    "linkLinkedin":"https://github.com/iuricode/padroes-de-commits",
+    "foto": "devs/ari-dev.png",
+    "sobreMembro":"Graduada em Administração de Empresas, por não ter me identificado na área, e gostar muito de tecnologia, entrei em processo de transição de carreira para a área de TI. Sou uma profissional com o perfil hands-on, atualmente estou atuando em um projeto (voluntario) como FRONT-END no 'PIPOCA ÁGIL', e trabalhando como recuperadora de credito na empresa LOCALCRED, estou sempre em buscando aprimorar meus conhecimentos."
+  },
+  {
+    "id": 3,
+    "nomeMembro": "Cassiane Ginez",
+    "funcao": "UX/UI by mouth",
+    "linkLinkedin": "https://www.linkedin.com/in/cassianeginez/",
+    "foto": "devs/cassiane-ux.png",
+    "sobreMembro": "UX/UI designer do time. Meu papel no projeto se dá principalmente em atuar na criação de um produto digital que proporciona uma experiência intuitiva e agradável para os usuários, gerando satisfação no uso e alcançando metas de negócios. As atividades envolvem entender as necessidades e comportamentos dos usuários e traduzir essa compreensão em interações intuitivas e eficientes dentro da interface digital."
+  },
+  {
+    "id": 4,
+    "nomeMembro": "Cleberson Emidio",
+    "funcao": "Scrum Master Tooth",
+    "linkLinkedin": "https://www.linkedin.com/in/cleberson-emidio/",
+    "foto": "devs/emidio-smt.png",
+    "sobreMembro": "Estou aqui para orientar e capacitar nossa squad a alcançar todo o seu potencial. Quero garantir que todos tenham voz e que possamos enfrentar desafios juntos, sempre em busca das melhores práticas e soluções criativas.Meu objetivo é criar um ambiente onde a inovação floresça e onde todos se sintam capacitados a contribuir com suas habilidades únicas."
+  },
+  {
+    "id": 5,
+    "nomeMembro": "Daniela Calixto",
+    "funcao": "Quality Dentist Assurance",
+    "linkLinkedin": "https://www.linkedin.com/in/daniela-calixto/",
+    "foto": "devs/daniela-qda.png",
+    "sobreMembro": "Sou persistente, com habilidades claras e objetivas, que se destaca pela dedicação e comprometimento. Na área de QA, procuro ter um olhar crítico e analítico, sempre em busca de melhoria contínua. Minha atuação no projeto será importante para garantir a qualidade e o sucesso das entregas, trazendo confiança e segurança para toda a equipe."
+  }
+]
