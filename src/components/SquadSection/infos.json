@@ -12,7 +12,9 @@
     "funcao":"Front-end Develotooth",
     "linkLinkedin":"https://github.com/iuricode/padroes-de-commits",
     "foto": "devs/ari-dev.png",
-    "sobreMembro":"Graduada em Administração de Empresas, por não ter me identificado na área, e gostar muito de tecnologia, entrei em processo de transição de carreira para a área de TI. Sou uma profissional com o perfil hands-on, atualmente estou atuando em um projeto (voluntario) como FRONT-END no 'PIPOCA ÁGIL', e trabalhando como recuperadora de credito na empresa LOCALCRED, estou sempre em buscando aprimorar meus conhecimentos."
+    "sobreMembro":"Graduada em Administração de Empresas, por não ter me identificado na área, e gostar muito de tecnologia, entrei em processo de transição de carreira para a área de TI. Sou uma profissional com o perfil hands-on, atualmente estou atuando em um projeto (voluntario) como FRONT-END no 'PIPOCA ÁGIL', e trabalhando como recuperadora de credito na empresa LOCALCRED, estou sempre em buscando aprimorar meus conhecimentos.",
+    "primario": true,
+    "fotoAuxiliar": "dente-empurrando.png"
   },
   {
     "id": 3,
@@ -20,7 +22,9 @@
     "funcao": "UX/UI by mouth",
     "linkLinkedin": "https://www.linkedin.com/in/cassianeginez/",
     "foto": "devs/cassiane-ux.png",
-    "sobreMembro": "UX/UI designer do time. Meu papel no projeto se dá principalmente em atuar na criação de um produto digital que proporciona uma experiência intuitiva e agradável para os usuários, gerando satisfação no uso e alcançando metas de negócios. As atividades envolvem entender as necessidades e comportamentos dos usuários e traduzir essa compreensão em interações intuitivas e eficientes dentro da interface digital."
+    "sobreMembro": "UX/UI designer do time. Meu papel no projeto se dá principalmente em atuar na criação de um produto digital que proporciona uma experiência intuitiva e agradável para os usuários, gerando satisfação no uso e alcançando metas de negócios. As atividades envolvem entender as necessidades e comportamentos dos usuários e traduzir essa compreensão em interações intuitivas e eficientes dentro da interface digital.",
+    "primario": false,
+    "fotoAuxiliar": "dente-empurrando4.png"
   },
   {
     "id": 4,
@@ -28,7 +32,9 @@
     "funcao": "Scrum Master Tooth",
     "linkLinkedin": "https://www.linkedin.com/in/cleberson-emidio/",
     "foto": "devs/emidio-smt.png",
-    "sobreMembro": "Estou aqui para orientar e capacitar nossa squad a alcançar todo o seu potencial. Quero garantir que todos tenham voz e que possamos enfrentar desafios juntos, sempre em busca das melhores práticas e soluções criativas.Meu objetivo é criar um ambiente onde a inovação floresça e onde todos se sintam capacitados a contribuir com suas habilidades únicas."
+    "sobreMembro": "Estou aqui para orientar e capacitar nossa squad a alcançar todo o seu potencial. Quero garantir que todos tenham voz e que possamos enfrentar desafios juntos, sempre em busca das melhores práticas e soluções criativas.Meu objetivo é criar um ambiente onde a inovação floresça e onde todos se sintam capacitados a contribuir com suas habilidades únicas.",
+    "primario": true,
+    "fotoAuxiliar": "dente-empurrando3.png"
   },
   {
     "id": 5,
@@ -36,6 +42,28 @@
     "funcao": "Quality Dentist Assurance",
     "linkLinkedin": "https://www.linkedin.com/in/daniela-calixto/",
     "foto": "devs/daniela-qda.png",
-    "sobreMembro": "Sou persistente, com habilidades claras e objetivas, que se destaca pela dedicação e comprometimento. Na área de QA, procuro ter um olhar crítico e analítico, sempre em busca de melhoria contínua. Minha atuação no projeto será importante para garantir a qualidade e o sucesso das entregas, trazendo confiança e segurança para toda a equipe."
+    "sobreMembro": "Sou persistente, com habilidades claras e objetivas, que se destaca pela dedicação e comprometimento. Na área de QA, procuro ter um olhar crítico e analítico, sempre em busca de melhoria contínua. Minha atuação no projeto será importante para garantir a qualidade e o sucesso das entregas, trazendo confiança e segurança para toda a equipe.",
+    "primario": false,
+    "fotoAuxiliar": "dente-empurrando4.png"
+  },
+  {
+    "id": 6,
+    "nomeMembro": "Hellen",
+    "funcao": "Product Owner $",
+    "linkLinkedin": "https://github.com/iuricode/padroes-de-commits",
+    "foto": "devs/hellen-po.png",
+    "sobreMembro": "Profissional de educação física especialista em formação esportiva e atualmente estuda desenvolvimento de produtos digitais para atuar no mercado de tecnologia.",
+    "primario": true,
+    "fotoAuxiliar": "dente-empurrando.png"
+  },
+  {
+    "id": 7,
+    "nomeMembro": "Priscilla Kleine",
+    "funcao": "Product Owner $",
+    "linkLinkedin": "https://www.linkedin.com/in/prikleine/",
+    "foto": "devs/priscilla-po.png",
+    "sobreMembro": "Product Owner do time, mas também já atuei como Scrum Master (2023). Esta experiência está sendo muito enriquecedora pois, unindo minhas experiências anteriores em Gestão de Projetos, consigo aplicar meus conhecimentos na área de produtos/negócios, metodologias ágeis e ferramentas de tecnologia. Juntamente com a equipe, estou desenvolvendo um produto do zero para auxiliar na saúde bucal da família. Não deixo de me envolver nas outras atividades do time pois sou muito curiosa, quero aproveitar o máximo esta experiência e aprimorar meus soft skills ;).",
+    "primario": false,
+    "fotoAuxiliar": "dente-empurrando4.png"
   }
 ]

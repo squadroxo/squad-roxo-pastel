@@ -8,6 +8,20 @@
   box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 3px;
   border-radius: 3rem;
   margin: 0 0 4rem 0;
+  position: relative;
+  background-color: #FEFEFE;
+
+  &__fotoAuxiliar{
+    position: absolute;
+    transform: scale(0.3);
+    right: -45rem;
+  }
+
+  &__fotoAuxiliarSec{
+    position: absolute;
+    transform: scale(0.3);
+    left: -50rem;
+  }
 
   &__containerFoto{
 

@@ -14,6 +14,8 @@ export default function SquadSection(){
           linkLinkedin={membro.linkLinkedin}
           nomeMembro={membro.nomeMembro}
           sobreMembro={membro.sobreMembro}
+          fotoAuxiliar={membro.fotoAuxiliar}
+          primario={membro.primario}
         />)
       }
     </article>
