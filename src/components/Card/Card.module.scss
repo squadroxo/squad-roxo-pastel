@@ -1,0 +1,29 @@
+.card{
+    color:#FFFFFF;
+    background-color: #816BD1;
+    width: 20%;
+    border-radius: 20px;
+    font-size: 10px;
+    padding:40px;
+}
+.tituloCard{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 1)   ;
+}
+.tituloCard img{
+    width: 20px;
+    height: 15px;
+}
+.card h1{
+    font-size: 15px;
+    margin-top: 5px 0 25px 0;
+    padding-bottom: 13px;
+    
+}
+.card p{
+    font-size: 10px;
+    padding-top: 10px;
+}
