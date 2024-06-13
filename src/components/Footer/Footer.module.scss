@@ -4,10 +4,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
-  &__esquerda{
-
-  }
+  position: relative;
 
   &__central{
     display: flex;
@@ -29,4 +26,12 @@
       color: white;
     }
   }
+
+  .fotoFooter{
+    transform: scale(0.2) rotate(-3.97deg);
+    position: absolute;
+    top: -455px;
+    left: -650px;
+  }
 }
+
