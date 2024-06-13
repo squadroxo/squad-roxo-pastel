@@ -3,7 +3,6 @@ import Footer from "./components/Footer";
 import SquadSection from './components/SquadSection';
 
 function App() {
-
   return (
     <div className={styles.container}>
       <SquadSection />
