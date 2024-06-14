@@ -15,7 +15,7 @@ export default function ContainerRoxoPastel() {
             <div className={styles.home}>
                 <img src={dente} alt="Imagem de um dente" />
                 <div>
-                    <h1>SQUAD <br /> <span>ROXO PASTEL</span></h1>
+                    <h1>Squad <br /> <span>Roxo Pastel</span></h1>
                     <p>Conheça nossa equipe Roxo Pastel!</p>
                 </div>
             </div>
