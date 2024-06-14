@@ -12,13 +12,13 @@ export default function Footer(){
       <img src={dentesFooter} alt="Dentes correndo" className={styles.fotoFooter}/>
       <div className={styles.container__esquerda}>
         <img src={urso} alt="Imagem de um urso" />
-        <img src={pipoca} alt="Logo do Pipoca Ágil" />
+        <a href="https://pipocaagil.com.br/" target="_blank"><img src={pipoca} alt="Logo do Pipoca Ágil" /></a>
       </div>
       <div className={styles.container__central}>
         <div>
-          <FaSpotify size={57} color="#1DB954"/>
-          <FaYoutube size={57} color="red"/>
-          <FaLinkedin size={57} color="blue"/>
+          <a href="https://open.spotify.com/show/5J1scP1l7m7kXK6v5RZS7J?si=27d5abb36c16408f&nd=1&dlsi=e313a2412f91422d"  target="_blank"><FaSpotify size={57} color="#1DB954"/></a>
+          <a href="https://www.youtube.com/@PipocaAgil" target="_blank"><FaYoutube size={57} color="red"/></a>
+          <a href="https://www.linkedin.com/company/pipoca-%C3%A1gil/"  target="_blank"><FaLinkedin size={57} color="blue"/></a>
         </div>
         <p>&copy; 2003 - 2024 Todos os direitos reservados.</p>
       </div>
