@@ -4,3 +4,9 @@
     flex-direction: column;
     padding-bottom: 200px;
 }
+
+@media screen and (max-width: 425px){
+    .rows{
+        padding-bottom: 80px;
+    }
+}

@@ -22,7 +22,7 @@ export default function Footer(){
         </div>
         <p>&copy; 2003 - 2024 Todos os direitos reservados.</p>
       </div>
-      <img src={dentinho} alt="" />
+      <img src={dentinho} alt="" className={styles.dentinho}/>
     </footer>
   )
 }

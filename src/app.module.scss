@@ -11,3 +11,14 @@ body {
 .foto{
   width: 100%;
 }
+
+@media screen and (max-width: 425px){
+  body{
+    width: 100%;
+    
+  }
+
+  .foto{
+    max-width: 100%;
+  }
+}

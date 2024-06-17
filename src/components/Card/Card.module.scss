@@ -26,3 +26,24 @@
     font-size: 10px;
     padding-top: 10px;
 }
+
+@media screen and (max-width: 425px){
+    .card {
+        width: 100%;
+    }
+    
+    .tituloCard{
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .tituloCard h1{
+        font-size: 1.4rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+}

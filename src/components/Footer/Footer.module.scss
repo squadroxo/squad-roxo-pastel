@@ -35,3 +35,20 @@
   }
 }
 
+@media screen and (max-width: 425px){
+  .container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 350px;
+
+    &__central{
+      gap: 2rem;
+      max-height: 25%;
+    }
+  }
+
+  .dentinho, .fotoFooter{
+    display: none;
+  }
+}
+
