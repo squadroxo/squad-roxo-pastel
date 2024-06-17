@@ -1,5 +1,5 @@
 .cabecalho {
-    background-color:  #4A007F;
+    background-color: #4A007F;
     display: flex;
     height: 100px;
     align-items: center;
@@ -37,4 +37,34 @@
 
 .home p {
     font-size: 20px;
+}
+
+@media screen and (max-width: 425px){
+    .cabecalho {
+        width: 100%;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .home {
+        flex-direction: column;
+        margin: 3rem 0 0 0;
+    }
+
+    .home div{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        h1{
+            font-size: 2rem;
+        }
+    }
+
+    .home img {
+        // display: none; //img_media
+        width: 250px;
+        height: 250px;
+    }
 }
