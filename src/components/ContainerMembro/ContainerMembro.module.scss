@@ -156,6 +156,32 @@
   }
 }
 
+@media screen and (max-width: 1024px){
+  .container__fotoAuxiliar, .container__fotoAuxiliarSec{
+    display: none; //img_media
+  }
+
+  .container__containerInfos__containerSobre{
+    width: 90%;
+    margin: 1rem 0;
+    text-align: justify;
+
+    &__sobre{
+      text-wrap: wrap;
+    }
+  }
+  .container {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .container__fotoAuxiliar, .container__fotoAuxiliarSec{
+    transform: scale(0.2);
+    right: -40rem;
+  }
+}
+
 a {
 
   &:visited {
