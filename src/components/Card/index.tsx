@@ -14,6 +14,5 @@ export default function Card ({titulo,texto}: IContainerCardProps){
             </div>
             <p>{texto}</p>
         </div>
-
     );
 }

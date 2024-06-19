@@ -26,3 +26,13 @@
         flex-wrap: wrap;
     }
 }
+
+@media screen and (max-width: 768px){
+    .tituloRows{
+        text-transform: uppercase;
+    }
+
+    .cards{
+        flex-wrap: wrap;
+    }
+}

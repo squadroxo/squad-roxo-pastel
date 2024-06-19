@@ -116,6 +116,46 @@
   
 }
 
+@media screen and (max-width: 360px){
+  .container {
+    height: 670px;
+  }
+
+  .container__containerInfos__pessoa{
+    padding: 0 20px;
+  }
+
+  .container__containerInfos__containerSobre__sobre{
+    
+  }
+}
+
+@media screen and (max-width: 768px){
+  .container__fotoAuxiliar, .container__fotoAuxiliarSec{
+    display: none; //img_media
+  }
+
+  .container__containerInfos__containerSobre{
+    width: 400px;
+    margin: 1rem 0;
+
+    &__sobre{
+      text-wrap: wrap;
+    }
+  }
+  .container {
+    height: 500px;
+    &__containerFoto{
+
+      &__foto{
+        border-radius: 50%;
+        width: 264px;
+        height: 264px;
+      }
+    }
+  }
+}
+
 a {
 
   &:visited {

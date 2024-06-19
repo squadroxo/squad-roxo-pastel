@@ -23,3 +23,20 @@
       }
     }
 }
+
+@media screen and (max-width: 375px){
+  .container__tituloSquad{
+    text-align: center
+  }
+}
+
+@media screen and (max-width: 768px){
+  .container {
+    
+
+    &__tituloSquad{
+      font-size: 3rem;
+      margin: 80px 0 0 0;
+    }
+  }
+}

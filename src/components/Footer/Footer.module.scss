@@ -52,3 +52,20 @@
   }
 }
 
+@media screen and (max-width: 768px){
+  .container{
+
+    &__esquerda{
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+
+
+  
+  .dentinho{
+    width: 130px;
+  }
+}
