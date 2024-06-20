@@ -35,7 +35,25 @@
   }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (min-width: 320px) and (max-width: 360px){
+  .container{
+    flex-direction: column;
+  }
+  .fotoFooter, .dentinho{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 425px){
+  .container{
+    flex-direction: column;
+  }
+  .fotoFooter, .dentinho{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
   .container {
     flex-wrap: wrap;
     flex-direction: row;

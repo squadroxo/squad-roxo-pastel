@@ -39,7 +39,31 @@
     font-size: 20px;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (min-width: 320px) and (max-width: 360px){
+    .home img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .home {
+        flex-direction: column;
+        margin: 3rem 0 0 0;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 425px){
+    .home img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .home {
+        flex-direction: column;
+        margin: 3rem 0 0 0;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
     .cabecalho {
         width: 100%;
         justify-content: center;
@@ -68,14 +92,14 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 769px) and (max-width: 1024px){
     .home img {
         width: 250px;
         height: 250px;
     }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 1025px) and (max-width: 1440px){
     .home img {
         width: 350px;
         height: 350px;
