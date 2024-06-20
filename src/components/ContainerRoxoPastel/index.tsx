@@ -8,12 +8,12 @@ export default function ContainerRoxoPastel() {
     return (
         <>
             <header className={styles.cabecalho}>
-                <img  src={logo1} alt="Logo do projeto Pipoca" />
-                <img  src={logo2} alt="Logo do Pipoca Ágil" />
+                <img src={logo1} alt="Logo do projeto Pipoca" />
+                <img src={logo2} alt="Logo do Pipoca Ágil" />
             </header>
 
             <div className={styles.home}>
-                <img src={dente} alt="Imagem de um dente" />
+                <img src={dente} alt="Imagem de um dente" className='fotoHome-dente'/>
                 <div>
                     <h1>Squad <br /> <span>Roxo Pastel</span></h1>
                     <p>Conheça nossa equipe Roxo Pastel!</p>
