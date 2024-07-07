@@ -1,44 +1,83 @@
+@import "../../styles/variaveis.scss";
+
 .cabecalho {
-    background-color: #4A007F;
+    background-color: $corPrincipal;
     display: flex;
-    height: 100px;
-    align-items: center;
-    padding-left: 10%;
+    height: 110px;
 }
 
-.cabecalho img {
-    width: 85px;
-    height: 85px;
-    margin-top: 110px;
+.cabecalho .logo1 {
+    width: 110.47px;
+    height: 101.86px;
+    top: 71.2px;
+    left: 424.19px;
+    //margin-left e top  - perguntar para QA e designers
+    margin-left: 100px;
+    margin-top: 70px;
 }
-
+.cabecalho .logo2{
+    //nessa logo 2 usei as medidas do figma mas ficou meio estranha
+    width: 91.19px;
+    height: 101.76px;
+    top: 71px;
+    left: 317px;
+    //margin-top - perguntar para QA e designers
+    margin-top: 68px;
+}
 .home {
-    height: 90%;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-    color: #4A007F;
+    //perguntar para QA e designers - as medidas a seguir
+    margin-left: 400px;
+    
 }
 
 .home img {
-    width: 900px;
-    height: 800px;
+    width: 1233px;
+    height: 966px;
+    top: 173px;
+    left: 687px;
 }
+.homeTexto{
+    //perguntar para QA e designers - as medidas a seguir
+    margin-top: 300px;
 
+}
 .home h1 {
-    font-size: 70px;
+    width: 574.31px;
+    height: 222px;
+    top: 441px;
+    left: 317px;
+    font-family: $fontPrincipal;
+    font-size: 101.48px;
     font-weight: 400;
+    line-height: 110.52px;
+    text-align: left;
+    color:$corTerciaria;
+
+
 }
 
 .home h1 span {
-    font-weight: 800;
+    font-weight: 800; 
 }
 
 .home p {
-    font-size: 20px;
+    width: 625.05px;
+    height: 37px;
+    top: 690.1px;
+    left: 317px;
+    gap: 46.13px;
+    color: $corPrincipal;
+    font-size: 27.68px;
+    font-weight: 400;
+    font-style: italic;
+    line-height:36.9px
+
 }
 
+
+//Perguntar QA e designers - vamos fazer responsivo para mobile e 1366x768
 @media screen and (min-width: 320px) and (max-width: 360px){
     .home img {
         width: 100px;
