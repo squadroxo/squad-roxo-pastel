@@ -29,7 +29,9 @@ export default function ContainerMembro({ foto, funcao, linkLinkedin, nomeMembro
               <FaLinkedin size={40} color="#0E46A8"/>
             </a>
           </div>
-          <p className={styles.container__containerInfos__sobre}>{sobreMembro}</p>
+          <div className={styles.container__containerInfos__containerSobre}>
+            <p className={styles.container__containerInfos__containerSobre__sobre}>{sobreMembro}</p>
+          </div>
         </div>
       </div>
     </>

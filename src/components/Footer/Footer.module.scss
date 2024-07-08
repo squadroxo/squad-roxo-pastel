@@ -35,3 +35,55 @@
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 360px){
+  .container{
+    flex-direction: column;
+  }
+  .fotoFooter, .dentinho{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 425px){
+  .container{
+    flex-direction: column;
+  }
+  .fotoFooter, .dentinho{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+  .container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 350px;
+
+    &__central{
+      gap: 2rem;
+      max-height: 25%;
+    }
+  }
+
+  .dentinho, .fotoFooter{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .container{
+
+    &__esquerda{
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+
+
+  
+  .dentinho{
+    width: 130px;
+  }
+}

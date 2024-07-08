@@ -16,4 +16,41 @@
     padding: 60px 0 0 0;
 }
 
+@media screen and (min-width: 320px) and (max-width: 360px){
+    .cards{
+        width: 100%;
+    }
+}
 
+@media screen and (max-width: 425px){
+    .tituloRows{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    .cards{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .tituloRows{
+        text-transform: uppercase;
+    }
+
+    .cards{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .cards{
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+    .cards{
+        width: 85%;
+    }
+}

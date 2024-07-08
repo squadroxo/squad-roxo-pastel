@@ -50,7 +50,7 @@
     "id": 6,
     "nomeMembro": "Hellen",
     "funcao": "Product Owner $",
-    "linkLinkedin": "https://github.com/iuricode/padroes-de-commits",
+    "linkLinkedin": "https://www.linkedin.com/in/hellen-darlian/",
     "foto": "devs/hellen-po.png",
     "sobreMembro": "Profissional de educação física especialista em formação esportiva e atualmente estuda desenvolvimento de produtos digitais para atuar no mercado de tecnologia.",
     "primario": true,
@@ -73,6 +73,16 @@
     "linkLinkedin": "https://www.linkedin.com/in/lucas-baptista-da-silva-133779233/",
     "foto": "devs/lucas-dev.png",
     "sobreMembro": "Tenho 19 anos de idade e estou cursando o 5° e último semestre de Análise e Desenvolvimento de Sistema na faculdade UNIBR no período noturno e no meu tempo livre estudo as tecnologias voltadas à área de front-end. Acredito que o cenário tecnológico mundial está em permanente evolução. Por esse motivo, empenho 110% do meu tempo e energia, uma vez que meu objetivo de vida é seguir minha paixão: a PROGRAMAÇÃO!",
+    "primario": true,
+    "fotoAuxiliar": "dente-empurrando.png"
+  },
+  {
+    "id": 9,
+    "nomeMembro": "Daniela Alves",
+    "funcao": "Desenvolvedora Front End",
+    "linkLinkedin": "https://www.linkedin.com/in/daniela-dos-santos-alves/",
+    "foto": "devs/daniela-alves.jpg",
+    "sobreMembro": "Sou graduanda em Engenharia de Software e possuo conhecimento nas linguagens de programação C, Java, JavaScript, SQL e Python. E nas linguagens de marcação e estilização, como HTML e CSS.",
     "primario": false,
     "fotoAuxiliar": "dente-empurrando4.png"
   }

@@ -26,3 +26,48 @@
     font-size: 10px;
     padding-top: 10px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 360px){
+    .card {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 425px){
+    .card {
+        width: 100%;
+    }
+    
+    .tituloCard{
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .tituloCard h1{
+        font-size: 1.4rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .card{
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .card{
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+    .card{
+        width: 75%;
+    }
+}
