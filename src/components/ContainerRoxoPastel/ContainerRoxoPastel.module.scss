@@ -1,59 +1,54 @@
 @import "../../styles/variaveis.scss";
 
 .cabecalho {
-    background-color: $corPrincipal;
+    background-color: #4E3494;
     display: flex;
     height: 110px;
 }
-
-.cabecalho .logo1 {
-    width: 110.47px;
-    height: 101.86px;
-    top: 71.2px;
-    left: 424.19px;
-    //margin-left e top  - perguntar para QA e designers
-    margin-left: 100px;
-    margin-top: 70px;
+.cabecalho img{
+    //testando
+    margin-top: 65px;
 }
-.cabecalho .logo2{
-    //nessa logo 2 usei as medidas do figma mas ficou meio estranha
+.cabecalho .logo1 {
     width: 91.19px;
     height: 101.76px;
     top: 71px;
     left: 317px;
-    //margin-top - perguntar para QA e designers
-    margin-top: 68px;
+}
+.cabecalho .logo2{
+    width: 110.47px;
+    height: 101.86px;
+    top: 71.2px;
+    left: 424.19px;
+   
 }
 .home {
     display: flex;
-    flex-direction: row-reverse;
-    //perguntar para QA e designers - as medidas a seguir
-    margin-left: 400px;
-    
+    flex-direction: row-reverse;   
 }
-
+.homeTexto{
+    //alinhando
+    position: relative;
+    top:250px;
+    left: 200px;
+}
 .home img {
     width: 1233px;
     height: 966px;
     top: 173px;
     left: 687px;
 }
-.homeTexto{
-    //perguntar para QA e designers - as medidas a seguir
-    margin-top: 300px;
 
-}
 .home h1 {
     width: 574.31px;
     height: 222px;
     top: 441px;
     left: 317px;
-    font-family: $fontPrincipal;
+    font-family: "Lato", sans-serif;
     font-size: 101.48px;
     font-weight: 400;
     line-height: 110.52px;
-    text-align: left;
-    color:$corTerciaria;
+    color:#4A007F;
 
 
 }
@@ -68,15 +63,16 @@
     top: 690.1px;
     left: 317px;
     gap: 46.13px;
-    color: $corPrincipal;
+    color: #4E3494;
     font-size: 27.68px;
     font-weight: 400;
-    font-style: italic;
     line-height:36.9px
-
+}
+.home p span{
+    font-style: italic;
 }
 
-
+/*
 //Perguntar QA e designers - vamos fazer responsivo para mobile e 1366x768
 @media screen and (min-width: 320px) and (max-width: 360px){
     .home img {
@@ -144,3 +140,4 @@
         height: 350px;
     }
 }
+    */
