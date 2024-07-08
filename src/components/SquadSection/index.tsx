@@ -1,6 +1,6 @@
 import ContainerMembro from "../ContainerMembro";
 import styles from "./SquadSection.module.scss";
-import dados from './infos.json';
+import dados from './infos';
 
 export default function SquadSection(){
   return (
@@ -14,7 +14,6 @@ export default function SquadSection(){
           linkLinkedin={membro.linkLinkedin}
           nomeMembro={membro.nomeMembro}
           sobreMembro={membro.sobreMembro}
-          fotoAuxiliar={membro.fotoAuxiliar}
           primario={membro.primario}
         />)
       }

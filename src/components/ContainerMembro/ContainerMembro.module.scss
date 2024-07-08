@@ -9,7 +9,8 @@
   border-radius: 3rem;
   margin: 0 0 4rem 0;
   position: relative;
-  background-color: #FEFEFE;
+  background-color: #FFFFFF;
+  padding: 69px 90px;
 
   &__fotoAuxiliar{
     position: absolute;
@@ -37,7 +38,8 @@
     &__pessoa{
       display: flex;
       align-items: center;
-      gap: 3rem;
+      gap: 4rem;
+
       &__nome {
         font-weight: 800;
         font-size: 32px;
@@ -49,14 +51,23 @@
         font-size: 24px;
         color: #4E3494;
       }
+
+      .imagemLinkedin{
+        width: 57px;
+        height: 57px;
+      }
     }
 
-    &__sobre{
-      margin: 3rem 0;
-      font-size: 18px;
-      font-weight: 500;
-      color: #4E3494;
-      width: 600px;
+    &__containerSobre{
+      width: 568px;
+      margin: 2rem 0 0 0;
+
+      &__sobre{
+        font-size: 18px;
+        font-weight: 400;
+        color: #4E3494;
+        line-height: 21.76px;
+      }
     }
   }
 }
@@ -140,9 +151,12 @@
       display: none; //img_media
   }
 
-  .container__containerFoto__foto {
-    width: 150px;
-    height: 150px;
+  .container__containerFoto{
+
+      &__foto {
+        width: 264px;
+        height: 264px;
+      }
   }
   
 }
