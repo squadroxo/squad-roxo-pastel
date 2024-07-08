@@ -10,7 +10,7 @@ interface IContainerMembroProps {
   primario?: boolean,
 }
 
-export default function ContainerMembro({ foto, funcao, linkLinkedin, nomeMembro, sobreMembro, primario }: IContainerMembroProps){
+export default function ContainerMembro({ foto, funcao, linkLinkedin, nomeMembro, sobreMembro }: IContainerMembroProps){
   return (
     <>
       <div className={styles.container}>
