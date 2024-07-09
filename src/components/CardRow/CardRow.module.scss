@@ -25,11 +25,23 @@
     margin-bottom: 70px;
     margin-left: 318px;
 }
+/*
 @media screen and (min-width: 320px) and (max-width: 360px){
     .cards{
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        height: 91px;
+    }
+    .tituloRow{
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .linha{
+       width: 0;
     }
 }
+
 
 @media screen and (max-width: 425px){
     .tituloRows{
@@ -40,6 +52,10 @@
     .cards{
         flex-wrap: wrap;
     }
+}
+
+@media screen and (min-width: 320px) and (max-width: 360px){
+
 }
 
 @media screen and (max-width: 768px){
@@ -63,3 +79,4 @@
         width: 85%;
     }
 }
+*/
