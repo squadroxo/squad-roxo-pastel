@@ -5,7 +5,7 @@ export default function ContainerSobre() {
     return (
         <div className={styles.rows}>
             <CardRow
-                tituloRows="SOBRE O PROJETO PIPOCA"
+                tituloRows="<strong>SOBRE</strong> O PROJETO PIPOCA"
                 titulo1="Quando surgiu"
                 texto1="Projeto Simulação Ágil, criado por Ibson Cabral em 2023."
                 titulo2="Objetivo"
@@ -14,7 +14,7 @@ export default function ContainerSobre() {
                 texto3="Pessoas em transição de carreira, e interessados no Universo Ágil, inclusive, profissionais que já trabalham ou interesse em trabalhar com agilidade."
             />
             <CardRow
-                tituloRows="Nosso desafio da vez"
+                tituloRows="NOSSO<strong> DESAFIO DA VEZ </strong> "
                 titulo1="Tema do projeto"
                 texto1="Um site educativo odontológico que apresente recursos visuais e interativos para instruir pacientes sobre condições, procedimentos e higiene bucal."
                 titulo2="Objetivo"

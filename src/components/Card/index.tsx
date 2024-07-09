@@ -10,7 +10,7 @@ export default function Card ({titulo,texto}: IContainerCardProps){
         <div className={styles.card}>
             <div className={styles.tituloCard}>
                 <img src={check} alt="icone de confere" />
-                <h1>{titulo}</h1>
+                <h1 className={styles.tituloTexto}>{titulo}</h1>
             </div>
             <p>{texto}</p>
         </div>

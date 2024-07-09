@@ -1,12 +1,4 @@
-.rows {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 200px;
+strong{
+    font-weight: 800;
 }
 
-@media screen and (max-width: 425px){
-    .rows{
-        padding-bottom: 80px;
-    }
-}
