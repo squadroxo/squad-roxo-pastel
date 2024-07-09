@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 51px;
   box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 3px;
   border-radius: 3rem;
   margin: 0 0 4rem 0;
@@ -12,20 +12,7 @@
   background-color: #FFFFFF;
   padding: 69px 90px;
 
-  &__fotoAuxiliar{
-    position: absolute;
-    transform: scale(0.3);
-    right: -45rem;
-  }
-
-  &__fotoAuxiliarSec{
-    position: absolute;
-    transform: scale(0.3);
-    left: -50rem;
-  }
-
   &__containerFoto{
-
     &__foto{
       border-radius: 50%;
       width: 264px;
@@ -34,7 +21,6 @@
   }
 
   &__containerInfos{
-
     &__pessoa{
       display: flex;
       align-items: center;
@@ -60,7 +46,7 @@
 
     &__containerSobre{
       width: 568px;
-      margin: 2rem 0 0 0;
+      margin: 24px 0 0 0;
 
       &__sobre{
         font-size: 18px;

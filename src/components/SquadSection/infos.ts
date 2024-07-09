@@ -3,14 +3,6 @@ import { v4 as uuidv4 } from "uuid" ;
 const data = [
   {
     id: uuidv4(),
-    nomeMembro: "Ibson Cabral",
-    funcao: "Host",
-    linkLinkedin: "https://www.linkedin.com/in/ibson-cabral/",
-    foto: "devs/ibson-host.png",
-    primario: false
-  },
-  {
-    id: uuidv4(),
     nomeMembro:"Ari Delmondes",
     funcao:"Quality Assurance / Tester",
     linkLinkedin:"https://www.linkedin.com/in/ariadine-delmondes-magalh%C3%A3es-front/",
@@ -52,7 +44,7 @@ const data = [
     linkLinkedin: "https://www.linkedin.com/in/daniela-calixto/",
     foto: "devs/daniela-qda.png",
     sobreMembro: "Sou persistente, com habilidades claras e objetivas, que se destaca pela dedicação e comprometimento. Na área de QA, procuro ter um olhar crítico e analítico, sempre em busca de melhoria contínua. Minha atuação no projeto será importante para garantir a qualidade e o sucesso das entregas, trazendo confiança e segurança para toda a equipe.",
-    primario: false
+    primario: true
   },
   {
     id: uuidv4(),
@@ -61,7 +53,7 @@ const data = [
     linkLinkedin: "https://www.linkedin.com/in/lucas-baptista-da-silva-133779233/",
     foto: "devs/lucas-dev.png",
     sobreMembro: "Tenho 19 anos de idade e estou cursando o 5° e último semestre de Análise e Desenvolvimento de Sistema na faculdade UNIBR no período noturno e no meu tempo livre estudo as tecnologias voltadas à área de front-end. Acredito que o cenário tecnológico mundial está em permanente evolução. Por esse motivo, empenho 110% do meu tempo e energia, uma vez que meu objetivo de vida é seguir minha paixão: a PROGRAMAÇÃO!",
-    primario: true
+    primario: false
   },
   {
     id: uuidv4(),
@@ -81,7 +73,24 @@ const data = [
     sobreMembro: "Product Owner do time, mas também já atuei como Scrum Master (2023). Esta experiência está sendo muito enriquecedora pois, unindo minhas experiências anteriores em Gestão de Projetos, consigo aplicar meus conhecimentos na área de produtos/negócios, metodologias ágeis e ferramentas de tecnologia. Juntamente com a equipe, estou desenvolvendo um produto do zero para auxiliar na saúde bucal da família. Não deixo de me envolver nas outras atividades do time pois sou muito curiosa, quero aproveitar o máximo esta experiência e aprimorar meus soft skills ;).",
     primario: false
   },
-  
+  {
+    id: uuidv4(),
+    nomeMembro: "Iago",
+    funcao: "Scrum Master",
+    linkLinkedin: "#",
+    foto: "devs/user.png",
+    sobreMembro: "DESCRIÇÃO DO IAGO",
+    primario: true
+  },
+  {
+    id: uuidv4(),
+    nomeMembro: "Renata",
+    funcao: "Scrum Master",
+    linkLinkedin: "#",
+    foto: "devs/user.png",
+    sobreMembro: "DESCRIÇÃO DA RENATA",
+    primario: false
+  }
 ];
 
 export default data;

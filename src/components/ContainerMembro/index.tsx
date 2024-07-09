@@ -10,10 +10,10 @@ interface IContainerMembroProps {
   primario?: boolean,
 }
 
-export default function ContainerMembro({ foto, funcao, linkLinkedin, nomeMembro, sobreMembro }: IContainerMembroProps){
+export default function ContainerMembro({ foto, funcao, linkLinkedin, nomeMembro, sobreMembro, primario }: IContainerMembroProps){
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} style={{ flexDirection: primario ? "row" : "row-reverse" }}>
         <div className={styles.container__containerFoto}>
           <img src={foto} alt={`Foto do(a) ${nomeMembro}`} className={styles.container__containerFoto__foto}/>
         </div>

@@ -5,7 +5,6 @@ import dados from './infos';
 export default function SquadSection(){
   return (
     <article className={styles.container}>
-      <h2 className={styles.container__tituloSquad}><strong>Membros</strong> da Squad</h2>
       {
         dados.map(membro => <ContainerMembro 
           key={membro.id}
