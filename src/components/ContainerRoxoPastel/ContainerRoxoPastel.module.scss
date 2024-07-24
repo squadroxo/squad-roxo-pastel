@@ -67,227 +67,38 @@
 .home p span {
     font-style: italic;
 }
-@media screen and (min-width: 320px) and (max-width: 360px) {
-    .cabecalho {
-        flex-direction: row;
-        height: 40px;
-    }
-    .cabecalho .logo1 {
-        margin: 20px 0 0 5px;
-        width: 45px;
-        height:50px;
 
+@media screen and (min-width: 1280px) and (max-width: 1366px){
+    .home{
+        max-width: 100%;
+        width: 1250px;
+        margin: 0;
+        overflow-x: hidden;
     }
-    .cabecalho .logo2 {
-        margin: 20px 0 0   0;
-        width: 55px;
-        height: 50px;
+    .home img{
+        width: 827.05px;
+        height: 647.96px;
+        top: 116px;
+        left: 425.18px;
     }
-
-    .home {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-        margin-top: 20px;
+    .homeTexto{
+        margin-right: 716.43px;
     }
-
-    .home img {
-        width: 200px;
-        height: 160px;
-        margin-left: 0;
-        margin-top: 20px;
+    .homeTexto h1{
+        width: 385.22px;
+        height: 148px;
+        top: 295.76px;
+        left: 178.34px;
+        font-size: 68px;
+        line-height: 74.05px;
     }
-
-    .homeTexto {
-        position: relative;
-        top: 20px;
-        left: 0;
-        text-align: center;
-        padding: 0 10px;
-    }
-
-    .home h1 {
-        width: 100%;
-        height: auto;
-        font-size: 50px;
-        line-height: 1.2em;
-        text-align: center;
-    }
-
-    .home p {
-        width: 100%;
-        height: auto;
-        font-size: 20px;
-        line-height: 1.2em;
-        text-align: center;
+    .homeTexto p{
+        width: 419.26px;
+        height: 25px;
+        top: 463.52px;
+        left: 177px;
+        gap: 30.94px;
+        font-size: 18px;
+        line-height: 24.75px;
     }
 }
-
-@media screen and (min-width: 361px) and (max-width: 425px) {
-    .cabecalho {
-        flex-direction: row;
-        height: 50px;
-    }
-    .cabecalho .logo1 {
-        margin: 25px 0 0 10px;
-        width: 55px;
-        height: 60px;
-    }
-    .cabecalho .logo2 {
-        margin: 25px 0 0 0;
-        width: 65px;
-        height: 60px;
-    }
-
-    .home {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-        margin-top: 30px;
-    }
-
-    .home img {
-        width: 240px;
-        height: 180px;
-        margin-left: 0;
-        margin-top: 30px;
-    }
-
-    .homeTexto {
-        position: relative;
-        top: 30px;
-        left: 0;
-        text-align: center;
-        padding: 0 15px;
-    }
-
-    .home h1 {
-        width: 100%;
-        height: auto;
-        font-size: 60px;
-        line-height: 1.2em;
-        text-align: center;
-    }
-
-    .home p {
-        width: 100%;
-        height: auto;
-        font-size: 25px;
-        line-height: 1.2em;
-        text-align: center;
-    }
-}
-@media screen and (min-width: 426px) and (max-width: 768px) {
-    .cabecalho {
-        flex-direction: row;
-        height: 60px;
-    }
-    .cabecalho .logo1 {
-        margin: 30px 0 0 15px;
-        width: 65px;
-        height: 70px;
-    }
-    .cabecalho .logo2 {
-        margin: 30px 0 0 0;
-        width: 75px;
-        height: 70px;
-    }
-
-    .home {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-        margin-top: 40px;
-    }
-
-    .home img {
-        width: 385px;
-        height: 288px;
-        margin-left: 0;
-        margin-top: 40px;
-    }
-
-    .homeTexto {
-        position: relative;
-        top: 40px;
-        left: 0;
-        text-align: center;
-        padding: 0 20px;
-    }
-
-    .home h1 {
-        width: 100%;
-        height: auto;
-        font-size: 70px;
-        line-height: 1.2em;
-        text-align: center;
-    }
-
-    .home p {
-        width: 100%;
-        height: auto;
-        font-size: 30px;
-        line-height: 1.2em;
-        text-align: center;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .cabecalho {
-        flex-direction: row;
-        height: 70px;
-    }
-    .cabecalho .logo1 {
-        margin: 35px 0 0 150px;
-        width: 75px;
-        height: 80px;
-    }
-    .cabecalho .logo2 {
-        margin: 35px 0 0 0;
-        width: 85px;
-        height: 80px;
-    }
-
-    .home {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-        margin-top: 50px;
-    }
-
-    .home img {
-        width: 600px;
-        height: 470px;
-        margin-left: 0;
-        margin-top: 50px;
-    }
-
-    .homeTexto {
-        position: relative;
-        top: 50px;
-        left: 0;
-        text-align: center;
-        padding: 0 25px;
-    }
-
-    .home h1 {
-        width: 100%;
-        height: auto;
-        font-size: 80px;
-        line-height: 1.2em;
-        text-align: center;
-    }
-
-    .home p {
-        width: 100%;
-        height: auto;
-        font-size: 35px;
-        line-height: 1.2em;
-        text-align: center;
-    }
-}   
-/*
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
-   
-}
-*/
