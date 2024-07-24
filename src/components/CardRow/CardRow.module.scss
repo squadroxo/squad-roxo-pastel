@@ -25,6 +25,30 @@
     margin-bottom: 70px;
     margin-left: 318px;
 }
+
+@media screen and  (min-width: 1280px) and (max-width: 1366px){
+    .cards{
+        width: 922.79px;
+        height: 299.23px;
+        
+        margin: 0px 177.21px 86.24px 180px; 
+       
+    }
+    .tituloRow{
+        font-size: 28px;
+        left: 33.6px;
+        margin:0  464.69px 0 457.41px;
+      
+    }
+    .linha{
+        width: 922.79px;
+        top: 42px;
+        left: 3px;
+        margin: 8px 173px 49.59px 176.49px;
+        
+        
+    }
+}
 /*
 @media screen and (min-width: 320px) and (max-width: 360px){
     .cards{
