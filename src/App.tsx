@@ -3,10 +3,10 @@ import ContainerRoxoPastel from "./components/ContainerRoxoPastel";
 import ContainerSobre from "./components/ContainerSobre";
 import Footer from "./components/Footer";
 import SquadSection from './components/SquadSection';
-import dentesWallpaper from "../public/wallpaper.png";
-import fotoIbson from "../public/devs/ibson-host.png";
-import iconLinkedin from "../public/linkedin-icon.png";
-import linhaDivisoria from "../public/linhaDivisoria.svg"
+import dentesWallpaper from "/wallpaper.png";
+import fotoIbson from "/devs/ibson-host.png";
+import iconLinkedin from "/linkedin-icon.png";
+import linhaDivisoria from "/linhaDivisoria.svg"
 
 function App() {
   return (

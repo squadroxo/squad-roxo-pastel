@@ -1,5 +1,5 @@
 import styles from "./ContainerMembro.module.scss";
-import iconLinkedin from "../../../public/linkedin-icon.png"
+import iconLinkedin from "/linkedin-icon.png"
 
 interface IContainerMembroProps {
   nomeMembro: string,

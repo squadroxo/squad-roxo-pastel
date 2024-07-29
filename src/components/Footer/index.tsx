@@ -1,9 +1,9 @@
 import styles from "./Footer.module.scss";
 import { FaSpotify, FaYoutube, FaLinkedin } from "react-icons/fa";
-import dentinho from "../../../public/dentinho.png";
-import pipoca from "../../../public/pipoca_agil.png";
-import urso from "../../../public/logo_pipoca 1.png";
-import dentesFooter from "../../../public/dentes-footer.png";
+import dentinho from "/dentinho.png";
+import pipoca from "/pipoca_agil.png";
+import urso from "/logo_pipoca 1.png";
+import dentesFooter from "/dentes-footer.png";
 
 
 export default function Footer(){

@@ -1,7 +1,7 @@
 import styles from './ContainerRoxoPastel.module.scss';
-import logo1 from "../../../public/logo_pipoca 1.png";
-import logo2 from '../../../public/pipoca_agil.png';
-import dente from '../../../public/dente1.png';
+import logo1 from "/logo_pipoca 1.png";
+import logo2 from '/pipoca_agil.png';
+import dente from '/dente1.png';
 
 export default function ContainerRoxoPastel() {
     return (
