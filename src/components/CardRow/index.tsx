@@ -1,5 +1,6 @@
 import Card from "../Card";
 import styles from "./CardRow.module.scss";
+import linha from "../../../public/Line.png"
 
 interface CardRowProps {
     tituloRows: string;
@@ -13,7 +14,8 @@ interface CardRowProps {
 export default function CardRow({tituloRows,titulo1, texto1, titulo2, texto2, titulo3, texto3}: CardRowProps) {
     return(
         <>
-            <h1 className={styles.tituloRows} >{tituloRows}</h1>
+            <h1 className={styles.tituloRow} dangerouslySetInnerHTML={{ __html: tituloRows }} />
+            <img className={styles.linha} src={linha} alt="linha divisoria" />
             <div className={styles.cards}>
                 
                 <Card  
@@ -28,8 +30,7 @@ export default function CardRow({tituloRows,titulo1, texto1, titulo2, texto2, ti
                     titulo={titulo3}
                     texto={texto3}
                 />
-                
-               
+    
             </div>
         </>
         
