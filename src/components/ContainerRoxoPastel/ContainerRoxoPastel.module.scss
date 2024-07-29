@@ -69,6 +69,23 @@
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1366px){
+    
+.cabecalho {
+    height: 73.78px;
+}
+
+.cabecalho img{
+    width: 61.17px;
+    height: 68.25px;
+    margin-top: 47.62px;
+    gap: 10.73px;
+    
+}
+.cabecalho .logo1 {
+    margin-left: 178.34px;
+
+}
+
     .home{
         max-width: 100%;
         width: 1250px;
@@ -79,15 +96,16 @@
         width: 827.05px;
         height: 647.96px;
         top: 116px;
-        left: 425.18px;
+        left: 27.77px;
     }
     .homeTexto{
-        margin-right: 716.43px;
+        top: 370px;
+        left: 178.34px;
+        
     }
     .homeTexto h1{
         width: 385.22px;
         height: 148px;
-        top: 295.76px;
         left: 178.34px;
         font-size: 68px;
         line-height: 74.05px;
@@ -95,10 +113,10 @@
     .homeTexto p{
         width: 419.26px;
         height: 25px;
-        top: 463.52px;
         left: 177px;
         gap: 30.94px;
         font-size: 18px;
         line-height: 24.75px;
+      
     }
 }
