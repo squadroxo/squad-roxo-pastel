@@ -1,5 +1,5 @@
 import styles from './Card.module.scss';
-import check from '../../../public/check.png';
+import check from '/check.png';
 
 interface IContainerCardProps {
     titulo: string;

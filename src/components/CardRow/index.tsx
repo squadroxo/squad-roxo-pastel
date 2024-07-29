@@ -1,6 +1,6 @@
 import Card from "../Card";
 import styles from "./CardRow.module.scss";
-import linha from "../../../public/Line.png"
+import linha from "/Line.png"
 
 interface CardRowProps {
     tituloRows: string;

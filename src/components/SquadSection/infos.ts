@@ -15,7 +15,7 @@ const data = [
     nomeMembro: "Cassiane Ginez",
     funcao: "UX/UI Designer",
     linkLinkedin: "https://www.linkedin.com/in/cassianeginez/",
-    foto: "devs/cassiane-ux.png",
+    foto: "devs/cassi-ux.png",
     sobreMembro: "UX/UI designer do time. Meu papel no projeto se dá principalmente em atuar na criação de um produto digital que proporciona uma experiência intuitiva e agradável para os usuários, gerando satisfação no uso e alcançando metas de negócios. As atividades envolvem entender as necessidades e comportamentos dos usuários e traduzir essa compreensão em interações intuitivas e eficientes dentro da interface digital.",
     primario: false
   },
@@ -24,7 +24,7 @@ const data = [
     nomeMembro: "Cleberson Emidio",
     funcao: "Scrum Master",
     linkLinkedin: "https://www.linkedin.com/in/cleberson-emidio/",
-    foto: "devs/emidio-smt.png",
+    foto: "devs/emidio-sm.png",
     sobreMembro: "Estou aqui para orientar e capacitar nossa squad a alcançar todo o seu potencial. Quero garantir que todos tenham voz e que possamos enfrentar desafios juntos, sempre em busca das melhores práticas e soluções criativas.Meu objetivo é criar um ambiente onde a inovação floresça e onde todos se sintam capacitados a contribuir com suas habilidades únicas.",
     primario: true
   },
@@ -33,7 +33,7 @@ const data = [
     nomeMembro: "Daniela Alves",
     funcao: "Desenvolvedora Front End",
     linkLinkedin: "https://www.linkedin.com/in/daniela-dos-santos-alves/",
-    foto: "devs/daniela-alves.jpg",
+    foto: "devs/dani-dev.png",
     sobreMembro: "Sou graduanda em Engenharia de Software e possuo conhecimento nas linguagens de programação C, Java, JavaScript, SQL e Python. E nas linguagens de marcação e estilização, como HTML e CSS.",
     primario: false
   },
