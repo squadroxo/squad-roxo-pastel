@@ -113,3 +113,18 @@ body {
     max-width: 100%;
   }
 }
+
+@media screen and (min-width: 1280px) and (max-width: 1500px){
+  .containerCardIbson{
+    width: 932px;
+    height: 353px;
+
+    &__containerFoto{
+      &__foto{
+        width: 235px;
+        height: 235px;
+      }
+    }
+  }
+
+}
