@@ -84,13 +84,31 @@ const data = [
   },
   {
     id: uuidv4(),
-    nomeMembro: "Renata",
-    funcao: "Scrum Master",
+    nomeMembro: "Vitoria",
+    funcao: "QA",
     linkLinkedin: "#",
     foto: "devs/user.png",
-    sobreMembro: "DESCRIÇÃO DA RENATA",
+    sobreMembro: "DESCRIÇÃO DA VITORIA",
     primario: false
-  }
+  },
+  {
+    id: uuidv4(),
+    nomeMembro: "Gustavo",
+    funcao: "QA",
+    linkLinkedin: "#",
+    foto: "devs/user.png",
+    sobreMembro: "DESCRIÇÃO DO GUSTAVO",
+    primario: true
+  },
+  {
+    id: uuidv4(),
+    nomeMembro: "Tozoni",
+    funcao: "Tech Lead",
+    linkLinkedin: "#",
+    foto: "devs/user.png",
+    sobreMembro: "DESCRIÇÃO DO TOZONI",
+    primario: false
+  },
 ];
 
 export default data;
