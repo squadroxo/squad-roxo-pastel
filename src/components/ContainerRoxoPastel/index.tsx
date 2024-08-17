@@ -1,6 +1,5 @@
 import styles from './ContainerRoxoPastel.module.scss';
 import logo1 from "/logo_pipoca 1.png";
-import logo2 from '/pipoca_agil.png';
 import dente from '/dente_alegre_escova.svg';
 
 export default function ContainerRoxoPastel() {
@@ -8,7 +7,6 @@ export default function ContainerRoxoPastel() {
         <>
             <header className={styles.cabecalho}>
                 <img className={styles.logo1} src={logo1} alt="Logo do projeto Pipoca" />
-                <img className={styles.logo2} src={logo2} alt="Logo do Pipoca Ágil" />
             </header>
 
             <div className={styles.home}>
