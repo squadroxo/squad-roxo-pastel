@@ -5,7 +5,7 @@ import dente from '/dente_alegre_escova.svg';
 export default function ContainerRoxoPastel() {
     return (
         <>
-            {/* <header className={styles.cabecalho}>
+            <header className={styles.cabecalho}>
                 <img className={styles.logo1} src={logo1} alt="Logo do projeto Pipoca" />
             </header>
 
@@ -15,7 +15,7 @@ export default function ContainerRoxoPastel() {
                     <h1>Squad<br/><span>Roxo Pastel</span></h1>
                     <p>Conheça nossa equipe <span>Roxo Pastel!</span></p>
                 </div>
-            </div> */}
+            </div>
         </>
     );
 }
