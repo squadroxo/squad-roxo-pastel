@@ -84,11 +84,11 @@ const data = [
   },
   {
     id: uuidv4(),
-    nomeMembro: "Vitoria",
-    funcao: "QA",
-    linkLinkedin: "#",
-    foto: "devs/user.png",
-    sobreMembro: "DESCRIÇÃO DA VITORIA",
+    nomeMembro: "Vitória Melo",
+    funcao: "Quality Assurance/Tester",
+    linkLinkedin: "https://www.linkedin.com/in/vitoria-melo-2b107b194/",
+    foto: "devs/vitoria-qa.png",
+    sobreMembro: "Sou apaixonada por tecnologia e busco constantemente me aprimorar para construir uma carreira sólida na área. Como acadêmica em Sistemas de Informação, com forte foco em qualidade de software, faço parte do time Pipoca Ágil, onde garanto que nossos produtos atendam aos mais altos padrões de qualidade e às necessidades dos nossos clientes.",
     primario: false
   },
   {
@@ -96,8 +96,8 @@ const data = [
     nomeMembro: "Gustavo",
     funcao: "QA",
     linkLinkedin: "#",
-    foto: "devs/user.png",
-    sobreMembro: "DESCRIÇÃO DO GUSTAVO",
+    foto: "devs/gustavo-qa.png",
+    sobreMembro: "Graduado em Sistemas para Internet pela FATEC Jahu, com experiência como desenvolvedor e suporte técnico, atualmente estou em processo de transição de carreira para a área de Garantia de Qualidade (QA). Estou constantemente buscando aprimorar meus conhecimentos e habilidades para garantir entregas de alta qualidade e satisfação do usuário.",
     primario: true
   },
   {
