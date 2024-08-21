@@ -13,7 +13,7 @@ interface CardRowProps {
 }
 export default function CardRow({tituloRows,titulo1, texto1, titulo2, texto2, titulo3, texto3}: CardRowProps) {
     return(
-        <>
+        <div className={styles.wrapper} >
             <h1 className={styles.tituloRow} dangerouslySetInnerHTML={{ __html: tituloRows }} />
             <img className={styles.linha} src={linha} alt="linha divisoria" />
             <div className={styles.cards}>
@@ -32,8 +32,7 @@ export default function CardRow({tituloRows,titulo1, texto1, titulo2, texto2, ti
                 />
     
             </div>
-        </>
-        
+        </div>
     );
 
 
