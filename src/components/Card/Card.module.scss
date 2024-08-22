@@ -91,19 +91,20 @@
     .tituloCard {
         display: flex;
         align-items: center;
-        justify-content: center;
         margin: 0;
         padding: 0;
+        gap: 4px;
     }
     
     .tituloCard img {
-        width: 12px;
-        height: 12px;
+        width: 9.46pxpx;
+        height: 7.77px;
     }
     
     .tituloCard .tituloTexto {
         font-size: 8px;
         line-height: 9.6px;
+        width: 60px;
     }
     
     .card p {
@@ -111,6 +112,7 @@
         line-height: 8px;
         text-align: left;
         padding-top: 4px;
+        
     }
 }
 
