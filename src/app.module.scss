@@ -65,10 +65,7 @@ body {
         color: #4E3494;
       }
 
-      .imagemLinkedin{
-        width: 57px;
-        height: 57px;
-      }
+
     }
 
     &__containerSobre{
@@ -83,6 +80,7 @@ body {
       }
     }
   }
+  
 }
 
 .linhaDivisoria{
@@ -152,6 +150,11 @@ body {
       font-size: 10px;
       line-height: 12px;
     }
+  }
+
+  .imagemLinkedin{
+    height: 23px;
+    width: 23px;
   }
 }
 
