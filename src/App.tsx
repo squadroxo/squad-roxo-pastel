@@ -14,7 +14,7 @@ function App() {
       <ContainerRoxoPastel/>
       <ContainerSobre/>
       <img src={dentesWallpaper} alt="Wallpaper de dentes" className={styles.foto}/>
-      <h2 className={styles.tituloSquad}><strong>Membros</strong> da Squad</h2>
+      <h2 className={styles.tituloSquad}><strong className={styles.destaque}>Membros</strong> da Squad</h2>
       <div className={styles.containerAuxiliar}>
         <div className={styles.containerCardIbson}>
           <div className={styles.containerCardIbson__containerFoto}>
