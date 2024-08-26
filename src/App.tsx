@@ -22,7 +22,7 @@ function App() {
           </div>
           <div className={styles.containerCardIbson__containerInfos}>
             <div className={styles.containerCardIbson__containerInfos__pessoa}>
-              <div>
+              <div className={styles.containerAboutIbson}>
                 <h1 className={styles.containerCardIbson__containerInfos__pessoa__nome}>Ibson Cabral</h1>
                 <h2 className={styles.containerCardIbson__containerInfos__pessoa__funcao}>Host</h2>
               </div>
