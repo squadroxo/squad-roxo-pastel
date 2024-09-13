@@ -26,7 +26,7 @@ const data = [
     funcao: "Scrum Master",
     linkLinkedin: "https://www.linkedin.com/in/janainalamas/",
     foto:"devs/janaina-sm.png",
-    sobreMembro:"Texto janaina",
+    sobreMembro:"Atuo como Scrum Master no time. E meu propósito é facilitar a aprendizagem e aplicação do Scrum refletindo e vendo soluções de aplicar conciliar teoria e prática. Conhecer e aprender com o time. Estimular para que possamos aprender e crescermos juntos e conseguirmos ter um produto que seja valioso para o nosso cliente.",
     primario: false
   },
   {
