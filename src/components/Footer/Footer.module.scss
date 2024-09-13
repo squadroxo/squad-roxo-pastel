@@ -1,79 +1,200 @@
-.container{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
   background-color: #4E3494;
   height: 239px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  
+}
+
+.logoPipoca img{
+  width: 110.47px;
+  height: 101.86px;
   position: relative;
+  right: 480px;
 
-  &__central{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    height: 100%;
+}
+.container__central {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 100%;
+}
 
-    div {
-      display: flex;
-      gap: 2rem;
-    }
+.container__links a img {
+  width: 57px;
+  height: 57px;
+  margin: 55px 22px 45px 22px;
+  position: relative;
+  right: 363px;
 
-    p {
-      font-weight: 500;
-      font-style: italic;
-      font-size: 16px;
-      color: white;
-    }
+}
+
+.container__central p {
+  height: 18px;
+  font-family: "work sans", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  color: #FFFFFF;
+  position: relative;
+  right: 360px;
+  bottom: 60px;
+}
+
+.fotoFooter {
+  transform: rotate(-3.97deg);
+  width: 572px;
+  height: 250px;
+  position: relative;
+  bottom: 190px;
+}
+
+.dentinho {
+  width: 191px;
+  height: 174px;
+  margin: 25px 0 40px 0;
+  position: relative;
+  right: 278px ;
+}
+///RESPONSIVIDADE FIGMA 
+
+@media screen and (min-width:1280px) and (max-width: 1366px) {
+  .container {
+    height: 159.33px;
   }
 
+  .logoPipoca img {
+    width: 73.65px;
+    height: 67.91px;
+    position: relative;
+    right: 180px;
+  }
+  .container__central {
+    gap: 30px;
+    position: relative;
+    left: 300px;
+  }
+
+  .container__links a img {
+    width: 38px;
+    height: 38px;
+    margin: 35.33px 14.67px 30px 14.67px;
+  }
+
+  .container__central p {
+    height: 12px;
+    font-size: 12px;
+    position: relative;
+    bottom: 44px;
+  }
+
+  .dentinho {
+    width: 127.33px;
+    height: 116px;
+    margin: 15.33px 185px 0 28.01px;
+    position: relative;
+    left: 152px;
+  }
+  .fotoFooter {
+    width: 381.33px;
+    height: 166.67px;
+    position: relative;
+    bottom: 124px;
+    left: 30px;
+  }
+
+}
+//Responsividade figma
+@media screen and (min-width: 360px) and (max-width: 425px) { 
+  .container {
+    width: 100%;
+    height: 85px;
+   
+  }
   .fotoFooter{
-    transform: scale(0.2) rotate(-3.97deg);
-    position: absolute;
-    top: -455px;
-    left: -650px;
-  }
-}
+    width: 107.25px;
+    height: 46.87px;
+    
+    margin-bottom: 154px;
+   }
 
-@media screen and (min-width: 320px) and (max-width: 360px){
-  .container{
-    flex-direction: column;
+  .logoPipoca img {
+    width: 29px;
+    height: 26.74px;
+    position: relative;
+    right: 80px;
   }
-  .fotoFooter, .dentinho{
-    display: none;
-  }
-}
 
-@media screen and (min-width: 361px) and (max-width: 425px){
-  .container{
-    flex-direction: column;
+  .container__links a img {
+    width: 26.93px;
+    height: 26.93px;
+    position: relative;
+    right: 50px;
+    margin: 23px 10.09px 5px 10.09px;
   }
-  .fotoFooter, .dentinho{
-    display: none;
+  .container__central{
+    gap: 11.56px;
   }
-}
+  .container__central p {
+    font-size: 7.36px;
+    position: relative;
+    right: 50px;
+    bottom: 14.51px;
+  }
 
-@media screen and (min-width: 426px) and (max-width: 768px){
+  .fotoFooter {
+    width: 107.25px;
+    height: 46.87px;
+    left: 2px;
+    margin-top: 429px;
+
+  }
+
+  .dentinho {
+    width: 34.03px;
+    height: 31px;
+    position: relative;
+    right: 30px;
+
+
+  }
+
+  }
+
+
+
+
+//responsividade lucas
+
+/*
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .container {
     flex-wrap: wrap;
     flex-direction: row;
     height: 350px;
 
-    &__central{
+    &__central {
       gap: 2rem;
       max-height: 25%;
     }
   }
 
-  .dentinho, .fotoFooter{
+  .dentinho,
+  .fotoFooter {
     display: none;
   }
 }
 
-@media screen and (max-width: 768px){
-  .container{
+@media screen and (max-width: 768px) {
+  .container {
 
-    &__esquerda{
+    &__esquerda {
       img {
         width: 100px;
         height: 100px;
@@ -82,8 +203,9 @@
   }
 
 
-  
-  .dentinho{
+
+  .dentinho {
     width: 130px;
   }
 }
+  */
