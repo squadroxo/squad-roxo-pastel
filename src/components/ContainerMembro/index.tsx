@@ -4,7 +4,7 @@ import iconLinkedin from "/linkedin-icon.png"
 interface IContainerMembroProps {
   nomeMembro: string,
   funcao: string,
-  linkLinkedin: string,
+  linkLinkedin?: string,
   foto: string
   sobreMembro?: string,
   primario?: boolean,
