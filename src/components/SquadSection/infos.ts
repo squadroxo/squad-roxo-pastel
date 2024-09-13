@@ -76,11 +76,11 @@ const data = [
   },
   {
     id: uuidv4(),
-    nomeMembro: "Gustavo",
+    nomeMembro: "Gustavo Moura",
     funcao: "Quality Assurance/Tester",
-    linkLinkedin: "link",
+    linkLinkedin: "https://www.linkedin.com/in/gdmmoura/",
     foto: "devs/gustavo-qa.png",
-    sobreMembro: "Graduado em Sistemas para Internet pela FATEC Jahu, com experiência como desenvolvedor e suporte técnico, atualmente estou em processo de transição de carreira para a área de Garantia de Qualidade (QA). Estou constantemente buscando aprimorar meus conhecimentos e habilidades para garantir entregas de alta qualidade e satisfação do usuário.",
+    sobreMembro: "Graduado em Sistemas para Internet pela FATEC Jahu, com experiência como desenvolvedor e suporte técnico, atualmente estou em processo de transição de carreira para a área de Garantia de Qualidade (QA). Estou constantemente buscando aprimorar meus conhecimentos e habilidades para garantir entregas de alta qualidade e satisfação do usuário.",
     primario: false
   },
  
