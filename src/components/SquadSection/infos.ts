@@ -40,12 +40,12 @@ const data = [
   },
   {
     id: uuidv4(),
-    nomeMembro:"Rafhael Silveira",
-    funcao: "UX/UI Designer",
-    LinkLinkedin: "link",
+    nomeMembro:"Raphael Silveira",
+    funcao:"UX/UI Designer",
+    linkLinkedin:"https://www.linkedin.com/in/raphaelmagsil/",
     foto:"devs/raphael-ux.png",
-    sobreMembro:"Texto rafhael",
-    primario:false
+    sobreMembro:"Sou graduado em Design Gráfico e trabalho como UX/UI Designer, sempre buscando criar experiências digitais incríveis. Tenho bastante prática com o Figma e gosto de colaborar com a equipe para desenvolver soluções criativas e eficientes.",
+    primario: false
   },
   {
     id: uuidv4(),
@@ -53,7 +53,7 @@ const data = [
     funcao: "Desenvolvedora Front End",
     linkLinkedin: "https://www.linkedin.com/in/daniela-dos-santos-alves/",
     foto: "devs/dani-dev.png",
-    sobreMembro: "Sou graduanda em Engenharia de Software e possuo conhecimento nas linguagens de programação C, Java, JavaScript, SQL e Python. E nas linguagens de marcação e estilização, como HTML e CSS.",
+    sobreMembro: "Sou graduanda em Engenharia de Software e atuo como desenvolvedora front-end. Busco desenvolver aplicações da melhor maneira possível, sempre focando em entregar minhas tarefas com excelência.",
     primario: true
   },
   {
