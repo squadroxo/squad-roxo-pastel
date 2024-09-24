@@ -7,7 +7,7 @@ import dentesWallpaper from "/wallpaper.png";
 import fotoIbson from "/devs/ibson-host.png";
 import iconLinkedin from "/linkedin-icon.png";
 import linhaDivisoria from "/linhaDivisoria.svg"
-
+import BackToTop from "./components/BackToTop"
 function App() {
   return (
     <div className={styles.container}>
@@ -36,6 +36,7 @@ function App() {
       <div className={styles.linhaDivisoria}>
         <img src={linhaDivisoria} alt="Linha roxa divisória" className="linhaDivisoria"/>
       </div>
+      <BackToTop />
       <SquadSection />
       <Footer />
     </div>

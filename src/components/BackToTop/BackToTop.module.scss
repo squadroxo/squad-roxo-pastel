@@ -1,0 +1,45 @@
+.backToTop {
+    position: fixed;
+    bottom: 18rem;
+    right: 11rem;
+    z-index: 1000;
+    
+}
+
+.backToTopButton {
+    background-color: #4E3494;
+    color: white;
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+    .backToTop {
+        bottom: 15rem;
+        right: 6rem;
+    }
+
+    .backToTopButton {
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 425px) {
+    .backToTop {
+        bottom: 10rem;
+        right: 0.3rem;
+    }
+
+    .backToTopButton {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+}

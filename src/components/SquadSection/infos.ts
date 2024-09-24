@@ -4,6 +4,15 @@ import { v4 as uuidv4 } from "uuid" ;
 const data = [
   {
     id: uuidv4(),
+    nomeMembro:"Pamella Matos",
+    funcao:"Product Owner",
+    linkLinkedin:"https://www.linkedin.com/in/pamella-matos-portfolio",
+    foto:"devs/pamella-po.png",
+    sobreMembro:"Sou formada em Administração de Empresas, com três especializações:  MBA em  Gestão de Pessoas, MBA em Gestão na Saúde e MBA em Gerenciamento de Projetos com Metodologia Ágil. Tenho duas certificações internacionais: scrum e product owner. Sou atenta a tendências de mercado e inovação, buscando automatizações em projetos e processos. O meu relacionamento interpessoal torna próximo os clientes, garantindo melhores alinhamentos.",
+    primario: true,
+  },
+  {
+    id: uuidv4(),
     nomeMembro: "Priscilla Kleine",
     funcao: "Product Owner",
     linkLinkedin: "https://www.linkedin.com/in/prikleine/",
