@@ -20,7 +20,7 @@ export default function ContainerSobre() {
                 titulo2="Objetivo"
                 texto2="Desenvolvimento de um produto (página web) para auxiliar pais, mães e responsáveis no gerenciamento da saúde bucal da família."
                 titulo3="Cronograma"
-                texto3="Reuniões semanais às quartas-feiras, às 22h, para toda a equipe. Além disso, encontros extras com colegas da equipe conforme disponibilidade, a tarde, noite ou no sábado."
+                texto3="Reuniões semanais às segundas-feiras, às 19h30, para toda a equipe. Além disso, encontros extras com colegas da equipe conforme disponibilidade, a tarde, noite ou no sábado."
             />
         </div>
 
